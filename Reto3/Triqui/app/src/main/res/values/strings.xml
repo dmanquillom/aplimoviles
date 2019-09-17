@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Triqui</string>
+    <string name="bOne"></string>
+    <string name="bTwo"></string>
+    <string name="bThree"></string>
+    <string name="bFour"></string>
+    <string name="bFive"></string>
+    <string name="bSix"></string>
+    <string name="bSeven"></string>
+    <string name="bEight"></string>
+    <string name="bNine"></string>
+    <string name="bReset">Reset</string>
+    <string name="tvScore">Resultado</string>
+    <string name="cbPlayer2">Jugador 2</string>>
+</resources>
