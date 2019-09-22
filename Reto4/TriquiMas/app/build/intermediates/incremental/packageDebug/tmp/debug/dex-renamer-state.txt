@@ -1,0 +1,4 @@
+#Sun Sep 22 13:20:20 COT 2019
+base.0=D\:\\UNAL\\Aplimoviles\\AndroidStudioProjects\\Reto4\\TriquiMas\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
