@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Fijar Nivel
     public void setTextLevel(){
+        tvScore.setTextColor(oldColors);
         if(level == 0){
             tvScore.setText("Nivel: Dificil");
         } else if (level == 2){
