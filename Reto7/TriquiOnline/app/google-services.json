@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "152170430787",
+    "firebase_url": "https://triquionline-45a27.firebaseio.com",
+    "project_id": "triquionline-45a27",
+    "storage_bucket": "triquionline-45a27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152170430787:android:d841c661f3e7f8fdc7aff6",
+        "android_client_info": {
+          "package_name": "co.triquionline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152170430787-pc536h0nv1pnbub7omri7r58sdgingtr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.triquionline",
+            "certificate_hash": "bd5101e8a2055b2fb69d30d3528077d7410a08c1"
+          }
+        },
+        {
+          "client_id": "152170430787-q5ae97osht514ahmt4rlorrk5fo4300d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8EKjrXxIOtgAARvV-yEbZivLsMGg3Rcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152170430787-q5ae97osht514ahmt4rlorrk5fo4300d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

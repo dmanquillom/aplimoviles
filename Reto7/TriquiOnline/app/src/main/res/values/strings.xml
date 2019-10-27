@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TriquiOnline</string>
+
+    <!-- Interfaz Gráfica -->
+    <string name="etName">Nombre</string>
+    <string name="bNewGame">Nuevo</string>
+    <string name="tvGames">Jugar con</string>
+
+    <!-- Llaves -->
+    <string name="kGameID">gameID</string>
+    <string name="kPlayerX">playerX</string>
+    <string name="kPlayerO">playerO</string>
+
+    <!-- Bases de Datos -->
+    <string name="dbGames">Games</string>
+    <string name="dbToPlay">ToPlay</string>
+
+    <!-- Mensajes -->
+    <string name="msWaitingPlayer">Esperando Jugador</string>
+    <string name="msYourTurn">Tu Turno</string>
+    <string name="msTurnOf">Turno de</string>
+    <string name="msTie">Empate</string>
+    <string name="msWin">Ganaste</string>
+    <string name="msLoss">Perdiste</string>
+
+    <!-- Errores -->
+    <string name="erRequired">Requerido</string>
+
+
+    <string name="first_human">You go first.</string>
+    <string name="turn_human">Your turn.</string>
+    <string name="turn_computer">Android\'s turn.</string>
+    <string name="result_tie">Empate</string>
+    <string name="result_human_wins">Ganador X</string>
+    <string name="result_computer_wins">Ganador O</string>
+    <string name="level">Nivel</string>
+
+    <string name="new_game">Nuevo juego</string>
+    <string name="config">Configuración</string>
+    <string name="exit">Salir</string>
+
+    <string name="difficulty_easy">Facil</string>
+    <string name="difficulty_harder">Medio</string>
+    <string name="difficulty_expert">Dificil</string>
+
+    <string-array name="list_difficulty_level">
+        <item>@string/difficulty_easy</item>
+        <item>@string/difficulty_harder</item>
+        <item>@string/difficulty_expert</item>
+    </string-array>
+
+    <string name="quit_question">Esta seguro que desea salir de la aplicación?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <string name="title_activity_settings">Settings</string>
+</resources>
