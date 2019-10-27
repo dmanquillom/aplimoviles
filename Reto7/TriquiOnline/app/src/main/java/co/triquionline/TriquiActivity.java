@@ -206,9 +206,9 @@ public class TriquiActivity extends AppCompatActivity {
             int pos = row * 3 + col;
 
             if (winner.isEmpty() && letter.compareTo(turn) == 0 && mBoardView.setBoardMove(pos, letter)) {
-                //if (mSoundOn) {
-                //mHumanMediaPlayer.start();
-                //}
+                if (mSoundOn) {
+                    mHumanMediaPlayer.start();
+                }
                 if (mBoardView.checkForWinner() == 2) {
                     mModelGame.setWinner(player);
                 } else if (mBoardView.checkForWinner() == 1) {
