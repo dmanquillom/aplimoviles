@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SQLiteEmpresas</string>
+
+    <!--Fields name-->
+    <string name="tvName">Nombre</string>
+    <string name="tvUrl">URL</string>
+    <string name="tvPhone">Teléfono</string>
+    <string name="tvEmail">Email</string>
+    <string name="tvListProduct">Productos y servicios</string>
+    <string name="tvArea">Clasifiación:</string>
+    <string name="cbConsultory">Consultoria</string>
+    <string name="cbCustomDevelopment">Desarrollo a la medida</string>
+    <string name="cbSoftwareFactory">Fabrica de software</string>
+
+    <!--Keys-->
+    <string name="kCompany">company</string>
+    <string name="sSeparator">;</string>
+
+    <!--Activity Main -->
+    <string name="tvMCompanies">LISTA DE EMPRESAS</string>
+    <string name="bCreate">Registrar</string>
+    <string name="bRetrieve">Filtrar</string>
+
+    <!--Activity Create-->
+    <string name="tvCCompany">REGISTRAR EMPRESA</string>
+    <string name="bSubmit">Enviar</string>
+    <string name="mRequired">Requerido</string>
+    <string name="mCSuccessful">Empresa registrada exitosamente</string>
+    <string name="mCFailure">No se logró registrar la empresa</string>
+
+    <!--Activity Update Delete-->
+    <string name="tvUCompany">EMPRESA</string>
+    <string name="bUpdate">Modificar</string>
+    <string name="bDelete">Eliminar</string>
+    <string name="mUQuestion">¿Esta seguro que desea actualizar la empresa?</string>
+    <string name="mUSuccessful">Empresa actualizada exitosamente</string>
+    <string name="mUFailure">No se logró actualizar la empresa</string>
+    <string name="mDQuestion">¿Esta seguro que desea eliminar la empresa?</string>
+    <string name="mDSuccessful">Empresa eliminada exitosamente</string>
+    <string name="mDFailure">No se logró eliminar la empresa</string>
+
+    <!--Activity Retrieve -->
+    <string name="tvRCompanies">FILTRO DE EMPRESAS</string>
+    <string name="mCheckRetrieve">Especifique al menos un criterio de búsqueda</string>
+
+    <!--Generic Messages -->
+    <string name="mCheckArea">Seleccione al menos una clasificación</string>
+
+    <!--Dialog -->
+    <string name="dYes">Si</string>
+    <string name="dNo">No</string>
+</resources>
