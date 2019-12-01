@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvDepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Departamento" />
+
+    <EditText
+        android:id="@+id/etDepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Departamento"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvMpio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Municipio" />
+
+    <EditText
+        android:id="@+id/etMpio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Municipio"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvPuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puesto" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etPuesto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/cbLike"
+            android:ems="10"
+            android:hint="Puesto"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cbLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:text="like" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvMesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mesa" />
+
+    <EditText
+        android:id="@+id/etMesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mesa"
+        android:inputType="number"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/bSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Buscar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvResultList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

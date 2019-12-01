@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/result_border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvResultName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="candidato"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvResultVotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="votos" />
+
+        <TextView
+            android:id="@+id/tvResultPartido"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|right"
+            android:text="partido"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResultPuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="puesto"
+        android:textSize="12sp" />
+
+</LinearLayout>

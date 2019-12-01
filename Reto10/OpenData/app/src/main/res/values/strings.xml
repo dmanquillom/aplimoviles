@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OpenData</string>
+    <string name="required">Requerido</string>
+    <string name="msgNoResult">No se encontraron resultados</string>
+</resources>
