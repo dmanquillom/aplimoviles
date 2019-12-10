@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">MyExperienceTeachers</string>
+
+    <!-- Todas -->
+    <string name="msg_yes">Si</string>
+    <string name="msg_no">No</string>
+    <string name="msg_required">Requerido</string>
+    <string name="child_separator">/</string>
+    <string name="maps_separator">,</string>
+    <string name="id_separator">_</string>
+    <string name="status_requested">SOLICITADA</string>
+    <string name="status_accepted">ACEPTADA</string>
+    <string name="status_rejected">RECHAZADA</string>
+    <string name="status_closed">CERRADA</string>
+
+    <!-- Keys -->
+    <string name="key_user">user</string>
+    <string name="key_teacher">teacher</string>
+    <string name="key_lesson">lesson</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">Inicio</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!-- Register Activity -->
+    <string name="msg_password">Passwords no coinciden</string>
+
+    <!-- Setup Activity -->
+    <string name="msg_profile_image">La imagen de perfil es obligatoria</string>
+    <string name="msg_crop_image">No se logró cortar la imagen</string>
+    <string name="msg_load_image">No se logró cargar la imagen</string>
+    <string name="image_extension_file">.jpg</string>
+
+    <!-- TeacherLocation Maps Activity -->
+    <string name="zoom">15</string>
+
+    <!-- Lesson List Activity -->
+    <string name="lesson_list_title">Lecciones</string>
+    <string name="lesson_date_format">dd MMM yyyy - HH:00</string>
+    <string name="msg_hour">hora</string>
+
+    <!-- Lesson Activity -->
+    <string name="lesson_title">Lección</string>
+    <string name="msg_status_successful">Ejecución exitosa</string>
+
+    <!-- Lesson Maps Activity -->
+    <string name="maps_url">https://maps.googleapis.com/maps/api/directions/json?</string>
+    <string name="maps_origin">origin=</string>
+    <string name="maps_destination">&amp;destination=</string>
+    <string name="maps_key">&amp;key=</string>
+    <string name="json_routes">routes</string>
+    <string name="json_legs">legs</string>
+    <string name="json_distance">distance</string>
+    <string name="json_duration">duration</string>
+    <string name="json_text">text</string>
+    <string name="json_steps">steps</string>
+    <string name="json_polyline">polyline</string>
+    <string name="json_points">points</string>
+    <string name="distance_separator">-</string>
+
+    <!-- Post Activity -->
+    <string name="post_title">Calificación</string>
+    <string name="msg_load_post">No se logró insertar el comentario</string>
+    <string name="msg_status_closed">Lección cerrada exitosamente</string>
+
+    <!-- DB -->
+    <string name="dbStudents">Students</string>
+    <string name="dbTeachers">Teachers</string>
+    <string name="dbLessons">Lessons</string>
+    <string name="dbMessages">Messages</string>
+    <string name="dbLocations">Locations</string>
+    <string name="dbPostTeachers">PostTeachers</string>
+
+    <!-- Storage -->
+    <string name="storageFolder">ProfileImage</string>
+
+    <string name="title_activity_location_maps">Map</string>
+    <string name="title_activity_lesson_maps">Map</string>
+</resources>
